@@ -5,7 +5,7 @@ author: MiguelPeF
 Categories: Rashan Project
 ---
 
-![_config.yml]({{ site.baseurl }}/images/config.png)
+![_config.yml]({{ site.baseurl }}/images/rashanCamera.png)
 
 Desde que comencé el proyecto de creación de mi primer videojuego con Unreal Engine 4 no me han dejado de surgir retos… El último de ellos, la elección de la cámara (posicionamiento, seguimiento…)
 Explicaré de forma resumida por qué finalmente incorporé varios tipos de cámara al entorno y cómo generé el cambio de cámara para cada situación, los problemas con los que me encontré y la mejor solución para ellos.
@@ -17,11 +17,11 @@ Para el proyecto Rashan quería que en los exteriores la vista fuese en tercera 
 
 Por ese motivo una vez tenía resuelto la visión desde exteriores me puse a investigar cómo se desenvolvían otros videojuegos. Me llamó la atención cómo lo hacian los antiguos Resident Evil que seguro que muchos recordaréis…
 
-![_config.yml]({{ site.baseurl }}/images/config.png)
+![_config.yml]({{ site.baseurl }}/images/resident-evil.jpg)
 
 Comencé con la creación de este sistema de una forma sencilla, aplicando triggers de accionamiento con Begin Overlap y referenciando la cámara que se posicionaba siempre abarcando el espacio que ocupaba el trigger box. Los blueprint que usé son:
 
-![_config.yml]({{ site.baseurl }}/images/config.png)
+![_config.yml]({{ site.baseurl }}/images/bp1.png)
 
 Todo funcionaba de forma correcta, pero empezaron a surgir los problemas…
 
