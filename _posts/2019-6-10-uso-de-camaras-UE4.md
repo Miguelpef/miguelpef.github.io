@@ -40,8 +40,3 @@ Podría haber modificado el control para solucionar de forma rápida el problema
 Para resolver el problema 2 habría sido buena idea que las cámaras estáticas rotaran en función de la posición del jugador, pero continuaríamos con el problema 1. 
 La solución para el Proyecto acabó siendo lo que se había pensado en un principio, un cambio de cámara de móvil a estático. Sin embargo, la cámara estática siempre tendría que estar mirando al frente y nunca a la derecha, izquierda o invertido… Además habría que posicionar un número elevado de cámara por los interiores para que se pudiese solucionar el problema 2. El cambio de cámara sería progresivo gracias a la opción del blueprint set view target with blend, posicionando blend time con valor de 1.0, logramos conseguir que el cambio se realice durante 1 segundo.
 
-<video width="720" height="480" controls>
-  <source src="videos/RashanCamera.mp4" type="video/mp4">
-  <source src="videos/RashanCamera.ogg" type="video/ogg">
-Your browser does not support the video tag.
-</video>
