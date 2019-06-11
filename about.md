@@ -4,12 +4,15 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+Bienvenid@, en este blog subiré contenido relacionado con proyectos y estudios realizados en los diferentes motores gráficos ya sea para realidad virtual, aumentada, mixta o videojuegos. 
+Me encuentro iniciandome en el mundo de la programación para aplicaciones multiplataforma con lenguajes como c# o c++.
+Cualquier cosa con la que no estés de acuerdo en este blog puedes comentarmelo para ayudarme a mejorar, será de gran ayuda.
 
-### More Information
-
-A place to include any other types of information that you'd like to include about yourself.
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+#[email@domain.com](mailto:email@domain.com)
+
+linkedin: miguelpef
+twitter: miguelpef
+github: miguelpef
