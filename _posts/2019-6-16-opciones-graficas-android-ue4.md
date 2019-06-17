@@ -8,7 +8,7 @@ Categories: Rashan Project, Opciones gráficas, gráficos
 ![_config.yml]({{ site.baseurl }}/images/graficos/Graficos.png)
 
 Dentro del mundo Android encontramos muchas diferencias entre dispositivos. A nivel de Hardware es un gran impedimento para la reproducción de aplicaciones que requieran una gran potencia. 
-En este sentido el juego que estoy desarrollando necesita de las mejores condiciones para funcionar ya que se desarrolla bajo OpenGL ES 3.1 un render específico para móvil con un componente visual muy potente. Para más información sobre OpenGL ES 3.1 puedes ir a este <a href="https://docs.unrealengine.com/en-US/Platforms/Mobile/Android/OpenGLES31MobileRenderer/index.html">enlace</a>.
+En este sentido el juego que estoy desarrollando necesita de las mejores condiciones para funcionar ya que se desarrolla bajo OpenGL ES 3.1 un render específico para móvil con un componente visual muy potente. Para más información sobre OpenGL ES 3.1 puedes ir a este <a href="https://docs.unrealengine.com/en-US/Platforms/Mobile/Android/OpenGLES31MobileRenderer/index.html" target="_blank">enlace</a>.
 
 <h2>Gestionando la configuración gráfica en Android</h2>
 En primer lugar hay que dar la posibilidad de cambiar las opciones gráficas desde algún tipo de menú que se encuentre tanto en el inicio del juego por si el dispositivo no puede iniciarlo con la máxima calidad posible y otro durante el juego por si en cualquier momento se quiere cambiar por cualquier motivo.
@@ -19,7 +19,7 @@ Para realizar este cambio ejecutaremos en consola los siguientes comandos:
 - r.ScreenPercentage 80
 - r.ScreenPercentage 100
 
-Donde el número es el porcentaje de resolución que comprende desde el 0 hasta el 100 siendo este último la máxima posible. Puedes ver más información sobre esta opción en el siguiente <a href="https://docs.unrealengine.com/en-US/Resources/ContentExamples/PostProcessing/1_13/index.html">enlace</a>.
+Donde el número es el porcentaje de resolución que comprende desde el 0 hasta el 100 siendo este último la máxima posible. Puedes ver más información sobre esta opción en el siguiente <a href="https://docs.unrealengine.com/en-US/Resources/ContentExamples/PostProcessing/1_13/index.html" target="_blank">enlace</a>.
 <br/>
 ![_config.yml]({{ site.baseurl }}/images/graficos/settinggraph.png)
 <br/>
@@ -88,4 +88,4 @@ r.MaterialQualityLevel=0-1<br/>
 <br/>
 <br/>
 <br/>
-Para más información acerca de las opciones gráficas en Unreal Engine 4 ir al siguiente <a href="https://docs.unrealengine.com/en-US/Engine/Performance/Scalability/ScalabilityReference/index.html">enlace</a>.
+Para más información acerca de las opciones gráficas en Unreal Engine 4 ir al siguiente <a href="https://docs.unrealengine.com/en-US/Engine/Performance/Scalability/ScalabilityReference/index.html" target="_blank">enlace</a>.
