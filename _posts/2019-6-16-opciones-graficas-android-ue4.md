@@ -35,7 +35,9 @@ Donde el número es el porcentaje de resolución que comprende desde el 0 hasta 
 <br/>
 <h2>Otros comandos para cambiar la configuración gráfica</h2>
 El número que se escribe es el rango entre el que se puede variar la configuración, si nos encontramos 0-4 podemos poner 0,1,2,3,4 pero solo un número que será la configuración que tendrá.
+<br/>
 <b>Post Procesado</b>
+<br/>
 <code>
 r.MotionBlurQuality=0-4<br/>
 r.BlurGBuffer=0-1<br/>
@@ -53,6 +55,7 @@ r.Tonemapper.GrainQuantization=0-1<br/>
 </code>
 <br/>
 <b>Sombras</b>
+<br/>
 <code>
 r.LightFunctionQuality=0-1<br/>
 r.ShadowQuality=0-5<br/>
@@ -64,6 +67,7 @@ r.Shadow.CSM.TransitionScale=0-1.0<br/>
 </code>
 <br/>
 <b>Texturas</b>
+<br/>
 <code>
 r.Streaming.MipBias=2.5-0<br/>
 r.MaxAnisotropy=0-8<br/>
@@ -71,6 +75,7 @@ r.Streaming.PoolSize=200-1000<br/>
 </code>
 <br/>
 <b>Efectos</b>
+<br/>
 <code>
 r.TranslucencyLightingVolumeDim=24-64<br/>
 r.RefractionQuality=0-2<br/>
